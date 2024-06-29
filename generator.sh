@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in {1..50000}; do
+for i in {31011..50000}; do
   echo "$i"
   folder=$((i % 100))
   mkdir -p "$folder"
